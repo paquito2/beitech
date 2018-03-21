@@ -1,0 +1,35 @@
+body { 
+    font-family: Verdana; 
+    font-size: 12px; 
+    color: #444; 
+} 
+  
+  
+#container { 
+    width: 700px; 
+    margin: 150px auto; 
+    background-color: #eee; 
+    overflow: hidden; /* Set overflow: hidden to clear the floats on #main and #sidebar */
+    padding: 15px; 
+} 
+  
+    #main { 
+        width: 490px; 
+        float: left; 
+    } 
+  
+    #sidebar { 
+        width: 200px; 
+        float: left; 
+    }
+#contain_car_order{
+    position: absolute;
+    margin-left: 470px;
+    top: 10px;
+    clear: both;
+    width: 300px;
+    float: inherit;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0,2) inset;
+    background: rgb(200, 200, 200);
+}
