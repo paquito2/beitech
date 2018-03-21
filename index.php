@@ -47,7 +47,7 @@
             <div class="row">
                 <div class='col-sm-4'>
                     <div class="form-group">
-                        <form action="tienda.php" id="form1" method="POST">
+                        <form action="productsShop.php" id="form1" method="POST">
                             Customer<select name="selectCust" class="selectpicker">                            
                                 <?php
                                     echo $sel;                                   
